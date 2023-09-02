@@ -3,7 +3,7 @@
     "name": "Practica-Udemy-2",
     "slug": "Practica-Udemy-2",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
