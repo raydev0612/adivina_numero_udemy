@@ -32,9 +32,9 @@ const StartGameScreen = ({ onPickNumber }) => {
 
   return (
     <View style={styles.rootContainer}>
-      <Title>Adivina mi Numero</Title>
+      <Title>Digite um número</Title>
       <Card>
-        <InstructionText>Numero:</InstructionText>
+        <InstructionText>Número:</InstructionText>
         <TextInput
           style={styles.numberInput}
           maxLength={2}
@@ -52,7 +52,7 @@ const StartGameScreen = ({ onPickNumber }) => {
           </View>
           <View style={styles.buttonContainer}>
             <PrimaryButtons onPress={confirmInputHandler}>
-              Confirmar
+              Confirme
             </PrimaryButtons>
           </View>
         </View>
